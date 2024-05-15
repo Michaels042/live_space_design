@@ -1,0 +1,295 @@
+body {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7); }
+    @media screen and (max-width: 992px) {
+      body {
+        font-size: 16px; } }
+/* ======================================== FOOTER ============================== */
+        .footlogo img{
+            height: 15em;
+            width: auto;
+            margin-left: 30%;
+            opacity: 0.5;
+        }
+
+        .footlogo h4{
+            color:#a03a01
+        }
+        .footlogo button{
+            padding-bottom: 1em;
+        }
+        .navbar{
+          display: none;
+        }
+        @media screen and (max-width: 768px) {
+          .navbar{
+            display: block;
+          }}
+       
+  /* ======================= NAVBAR AND FOOTER ==================================== */
+  .navbar-brand{
+    margin-left: 2%;
+  }
+  .navbar-brand img{
+    height:3em!important;
+    width: auto!important;
+    margin-top: 1%;
+  }
+  .logoborder{
+    border-radius: 30%;
+  }
+    
+    @media screen and (max-width: 768px) {
+      .navbar-brand img{
+        height:2em!important;
+        width: auto!important;
+        margin-left: 25%;
+        margin-top: 4%;
+      }
+      .home-nav img{
+        margin-left: 7%;
+      }
+      .footlogo img{
+        margin-bottom: 3em;
+    }
+     }
+
+     /* ============================= HOMEPAGE BEGINS================================ */
+     .bitp-blog {
+      width: 100%;
+      /* float: left; */
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 25px; }
+
+     .bitp-blog img{
+      object-fit: cover!important;
+        position: relative;
+        height: 25em;
+        width: auto;
+        max-width: 100%;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+      
+      .bitp-blog:hover img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1); }
+
+
+     /* ============================= HOMEPAGE ENDS================================ */
+
+
+  /* ==========================COUNCIL  MEMEBERS  BEGINS==================== */
+     .gallery-grid {
+      display: -ms-grid;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      grid-gap: 0.9em;
+      justify-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    /* The Images */
+  .gallery-grid img {
+    max-width: auto;
+    height: 10em;
+    object-fit: cover;
+  }
+  
+  .gallery-frame {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #4b4949;
+  }
+  .gallery-frame h5{
+    margin-bottom: 2%;
+    font-weight: 600;
+    color: saddlebrown;
+  }
+  @media screen and (max-width: 720px) {
+    .gallery-frame {
+      font-size:70%;    
+    } 
+    .gallery-frame h5{
+      font-size:80%;
+      margin-bottom: 2%;
+    } 
+      .gallery-frame img{
+        width:8em;
+        height:9em;
+        object-fit: cover;
+      }
+      .gallery-grid {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        grid-gap: 0.2em;
+        justify-items: center;
+        margin: 0;
+        padding: 0;
+      }
+      .committee a{
+      font-size:80%;
+      }
+      .committee {
+        padding: 0 !important;
+        }
+    }
+  
+  /* ==========================COUNCIL  MEMEBERS ENDS==================== */
+  
+  /* ========================== PIOUS SOCIETIES BEGINS ==================== */
+    .society img{
+      width:7em;
+      height: 8em;
+      object-fit: cover;
+    }
+    .pious{
+      height: 200px;
+    }
+    @media screen and (max-width: 720px) {
+      .pious {
+        height: auto; } 
+        .society img{
+          width:4em;
+          height: 5em;
+          object-fit: cover;
+        }
+      }
+    
+  
+  /* ========================== PIOUS SOCIETIES ENDS ==================== */
+  
+  /* ========================== ZONES BEGINS ==================== */
+  
+  .zones{
+    height: 27em;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .zones {
+      height: auto; 
+    }
+     }
+  
+  
+  /* ============================= ZONES ENDS ======================= */
+  /* ========================== ENTREPRENEUR BEGINS ==================== */
+  
+      .entrepreneur{
+        height: 250px;
+        }
+  
+      @media screen and (max-width: 720px) {
+      .entrepreneur {
+        height: 250px;
+        padding: 2px;
+      }
+  
+        .entrepreneur .desc h3 {
+          font-size: 70%!important;
+          letter-spacing: 1px!important;
+      }
+  
+       .ent img{
+        width: 5em!important;
+        height: 5em!important;
+        object-fit: cover;
+        }
+    }
+  
+        /* ========================== fashion BEGINS ==================== */
+  .fashion{
+    height: 300px;
+    }
+    @media screen and (max-width: 720px) {
+    .fashion {
+      height: auto; }
+    .fashion .colorlib-text {
+      font-size: 75%!important;
+    }
+    .fashion .colorlib-feature .colorlib-text {
+      padding-left: 75px;
+      width: 100%; }
+      .fashion .colorlib-feature .colorlib-text ul {
+        padding-left: 0px;
+      }
+      .fashion .colorlib-feature .colorlib-icon {
+        right: 0;
+        width: 70px;
+        height: 70px;
+        }
+   }
+  /* ========================== fashion ENDS ==================== */
+  
+  /* ==================================== ENTREPRENEUR ENDS ========================================= */
+  
+
+
+  /* ========================== ANNOUNCEMENT BEGINS ==================== */
+  
+      @media screen and (max-width: 720px) {
+        .news{
+          font-size: 80%;
+        }
+       }
+  /* ========================== ANNOUNCEMENT ENDS ==================== */
+  
+  /* ========================== ABOUT BEGINS ==================== */
+  
+       .faith{
+        color: #fff;
+      }
+      @media screen and (max-width: 720px) {
+        .faith{
+          font-size: 80%;
+          padding-right: 25px;
+          padding-left: 25px;
+        }
+        .patron{
+          font-size: 80%;
+        }
+        .patron h3{
+          font-size: 80%!important;
+        }
+        
+       }
+       @media screen and (max-width: 500px) {
+        
+        .patron h3{
+          font-size: 70%!important;
+        }
+        .dogma h3{
+          letter-spacing: 0!important;
+        }
+        .row.padding.patron{
+          padding-right: 40px;
+          padding-left: 10px;
+        }
+       }
+  
+  /* ========================== GET-IN-TOUCH BEGINS ==================== */
+       @media screen and (max-width: 720px){
+        #get-in-touch{
+          font-size: 70%;
+        }
+        #get-in-touch .colorlib-lead{
+          font-size: 110%;
+        }
+      }
+  /* ========================== GET-IN-TOUCH ENDS ==================== */
+  
