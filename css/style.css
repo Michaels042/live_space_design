@@ -228,7 +228,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -384,8 +384,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -395,7 +395,7 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 1em;
+      padding-top: 0.2em;
       padding-bottom: 3em; } }
 
 .about-img,
