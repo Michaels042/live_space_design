@@ -599,10 +599,7 @@ body.offcanvas {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px; }
-    .numbtext {
-      color: #0d0a02;
-      /* font-size: 30em; */
-    }
+  
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
@@ -960,7 +957,8 @@ body.offcanvas {
       height: 200px; } }
 
 .colorlib-bg-color {
-  background: #fafafa;
+  background: #e1e0e0;
+  /* background: #fafafa; */
   position: relative; }
 
 .pagination {
@@ -1230,6 +1228,23 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+  .bizname {
+    position: fixed;
+    right: 14px;
+    top: 0px;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 1;
+    /* visibility: hidden; */
+    padding: 20px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+
+    @media screen and (max-width: 300px) {
+      .bizname {
+        opacity: 1;
+        visibility: hidden; } }
   @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
       opacity: 1;

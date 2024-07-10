@@ -8,7 +8,11 @@ body {
       body {
         font-size: 16px; } }
 /* ======================================== FOOTER ============================== */
-        .footlogo img{
+.footer-social{
+  list-style-type: none;
+  top: 10px;
+}       
+.footlogo img{
             height: 15em;
             width: auto;
             margin-left: 30%;
@@ -40,6 +44,10 @@ body {
   }
   .logoborder{
     border-radius: 30%;
+  }
+  .smalogo{
+    transform: scale(0.05);
+    margin-top: -15em;
   }
     
     @media screen and (max-width: 768px) {
